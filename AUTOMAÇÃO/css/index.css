@@ -72,3 +72,24 @@ table thead {
 table tbody td{
     padding: 10px 0px;
 }
+
+footer{
+    display: flex;
+    padding: 30px 50px;
+    line-height: 1px;
+    
+    
+}
+
+footer div{
+    flex: 1;
+}
+
+.contato{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
