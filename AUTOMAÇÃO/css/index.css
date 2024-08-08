@@ -1,95 +1,43 @@
-/* css geral*/
 body {
-    background-color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
+box-sizing: border-box;
+display: flex;
+justify-content:center ;
+align-items: center;
+width: 100wv;
+height: 100vh;
 }
 
-/*css header*/
-header {
-    background-color: rgb(218, 213, 213);
-    border-radius: 0.9rem ;
-    display: flex;
-    padding: 5px 25px;
-}
-
-header div{
-    flex: 1
-}
-
-.numero {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-}
-
-.total-da-nota{
-    display: flex;
-    justify-content: flex-end;
-}
-
-/*footer*/
-
-.total-da-nota div{
-    background-color: rgb(233, 225, 225);
-    border-radius: 0.9rem;
-    min-height: 3rem;
+.login {
+    padding: 1rem;
+    height: 30%;
+    background-color:#ade8f4;
+    border-radius: 8px  ;
+    border: 1px solid #ade8f4;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 24pt;
-    width: 40%;
+    
+} 
 
-}
 
-.content {
-    min-height: 20rem;
+form {
     display: flex;
     flex-direction: column;
+    height: 50%;
     justify-content: space-between;
 }
 
-table {
-    padding: 0.8rem;
-}
-
-table thead {
-    border: 1px solid black;
-}
- 
-.head{
-    background-color: rgb(189, 189, 231);
-    font-size: 14pt;
-    height: 2rem;
-    padding: 5px;
-    border: 1px solid rgb(150, 150, 184);
-    border-radius: 10px;
-       
-}
-
-table tbody td{
-    padding: 10px 0px;
-}
-
-footer{
-    display: flex;
-    padding: 30px 50px;
-    line-height: 1px;
-    
-    
-}
-
-footer div{
-    flex: 1;
-}
-
-.contato{
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    
+input {
+    height: 1.5rem;
+    width: 18rem;
+    margin: 0.5rem 0rem;
 
 }
 
+button {
+height: 1.9rem;
+font-size: 15pt;
+background-color: #03045e;
+color: white;
+border-radius: 8px  ;
+border: 1px solid white;
+}

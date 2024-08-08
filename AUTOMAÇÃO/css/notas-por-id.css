@@ -1,0 +1,95 @@
+/* css geral*/
+body {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*css header*/
+header {
+    background-color: rgb(218, 213, 213);
+    border-radius: 0.9rem ;
+    display: flex;
+    padding: 5px 25px;
+}
+
+header div{
+    flex: 1
+}
+
+.numero {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-da-nota{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*footer*/
+
+.total-da-nota div{
+    background-color: rgb(233, 225, 225);
+    border-radius: 0.9rem;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    width: 40%;
+
+}
+
+.content {
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+table {
+    padding: 0.8rem;
+}
+
+table thead {
+    border: 1px solid black;
+}
+ 
+.head{
+    background-color: rgb(189, 189, 231);
+    font-size: 14pt;
+    height: 2rem;
+    padding: 5px;
+    border: 1px solid rgb(150, 150, 184);
+    border-radius: 10px;
+       
+}
+
+table tbody td{
+    padding: 10px 0px;
+}
+
+footer{
+    display: flex;
+    padding: 30px 50px;
+    line-height: 1px;
+    
+    
+}
+
+footer div{
+    flex: 1;
+}
+
+.contato{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+

@@ -1,0 +1,30 @@
+body{
+    width: 95%;
+    height: 100vh;
+}
+
+body div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.botao-adicionar{
+
+    justify-content: flex-end;   
+}
+
+
+button {
+    height: 1.9rem;
+    font-size: 15pt;
+    background-color: #03045e;
+    color: white;
+    border-radius: 8px  ;
+    border: 1px solid white;
+    }
+
+    table {
+        width: 70%;
+    }
