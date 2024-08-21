@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../css/notas-por-id.css">
 </head>
 <body>
-    <div class="botao-adicionar">
-        <button>ADICIONAR</button>  
+    <div class="botao-adicionar" >
+        <button class="btn-primario maisum">ADICIONAR</button>  
     </div>
-    <div> 
+    <div class="container"> 
         <table>
             <thead>
                     <td class="head">numero</td>
@@ -29,6 +29,18 @@
         </tbody>
         </table>
     </div>
-    
+    <div  class="modal" data-open="true">
+        <div>Adicionar Nota</div>
+        <form onsubmit="subimetido">
+            <input id="cliente" placeholder="cliente"/>
+            <input id="item" placeholder="item"/>
+            <input id="data" type="date" placeholder="data"/>
+            <div class="acoes">
+                <button class="btn-secundario" type="button" onclick="abreefecha()">Cancelar</button>
+                <button class="btn-primario" type="submit">Salvar Nota</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/listagem-notas.js"></script>
 </body>
 </html>
